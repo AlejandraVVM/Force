@@ -1,0 +1,117 @@
+.wrapper {
+    display: flex;
+    flex-flow: row wrap;
+    text-align: center;
+}
+
+.wrapper >*{
+    font-family:'Times New Roman', Times, serif;
+    padding: 10px;
+    margin: 10px;
+    flex: 1 100%;
+    border-radius: 10px; 
+}
+
+.header {
+    background-color: rgb(252, 252, 252);
+    height: 120px;
+    font-size: 24px;
+    font-family:'Times New Roman', Times, serif;
+         
+}
+.footer {
+    background-color: rgb(15, 15, 15);
+    height: 80px;
+    color: #dcfaf9;
+}
+.main {
+    display:flex;
+    text-align:center;
+    background-color: rgb(201, 253, 248);
+    height: 100%;
+    font-size: 24px;
+    font-family:'Times New Roman', Times, serif;
+}
+main{
+    text-align:center;
+    flex:1;
+}
+
+.menu {
+    display: flex;
+    justify-content:space-between ;
+    text-align: center;
+    background-color: #dcfaf9 ;
+    font-size: 25px; 
+}
+
+.menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+
+.menu li {
+    display: inline-block;
+}
+
+.menu li a {
+    display: block;
+    color: rgb(177, 215, 215); 
+    color: black;
+    font-family:initial;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.menu li a:hover {
+    background-color: #c0d5dd;
+    border-radius: 10px;
+}
+
+.aside {
+    background-color: rgb(152, 206, 202);
+    font-family: 'Times New Roman', Times, serif;
+}
+
+td{
+    padding: 8px;
+    margin-inline-end: auto;
+    border-bottom: 1px solid cornflowerblue ;
+}
+    
+.mi-boton {
+    background-color: #fefefe; 
+    border: none; 
+    color: rgb(0, 0, 0); 
+    padding: 15px 32px; 
+    text-align: center; 
+    display: inline-block; 
+    font-size: 16px; 
+    cursor: pointer; 
+    border-radius: 10px;
+    position:sticky; 
+    top: 520px; 
+    left: 400px;
+    
+}
+
+.mi-boton:hover {
+    background-color: #5ea8a8; 
+}
+
+@media all and (min-width: 600px) {
+    .main {
+        flex: 60%;
+        font-family:'Times New Roman', Times, serif;
+    } 
+}
+
+@media all and (min-width: 600px) {
+    .aside {
+        flex: 1;
+    }
+    
+}

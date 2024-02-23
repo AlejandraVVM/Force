@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css">
+    <title>Responsive Layout with Flexbox</title>
+</head>
+<body style="background-color: rgb(255, 255, 255);">
+    <div class="wrapper">
+        <header class="header">
+            <img src="img/tecnology.png" alt="logo"width=135 height="140">
+        </header>
+        <nav class="menu">  
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="Products.html">Products</a></li>
+                <li><a href="Register.html">Register</a></li>
+                <li><a href="About.html">About</a></li>
+
+            </ul>
+            <form action="#" method="get">
+                <input type="text" id="Search" placeholder="Type..."title="Search">
+                <button type="submit">Search</button> 
+            </form>
+        </nav>
+    
+        <article class="main">
+            <main>
+                <h1>About Computer Force</h1>
+                <p>Computer Force is a brand-new start-up company designed to provide the first-class service to its customers. Based in Parramatta in Sydney, Computer Force provides top-class computing products at bargain prices, for sale throughout Australia.</p>
+                <h2>Our Goals are:</h2>
+                <ul>
+                	<li>To become Australia’s most well-known and respected hardware and software, provider</li>
+                    <li>To create a service-based organisation whose goal is to exceed customer's expectations</li>
+                    <li>To provide a smooth, efficient, and transparent sales process</li>
+                </ul>
+                <h2>You can contact us using the following methods:</h2>
+                	<p>Address: 100 Main Road, Parramatta, NSW 20150</p>
+                    <p>Email: info@computerforce.com.au</p>
+                    <p>Phone: 02 4444 5555</p>
+
+                
+            </main>
+        </article>
+
+        <aside class="aside">
+            <h1>Purshases</h1>
+            <table>
+                <tr>
+                    <td>0 Items</td>
+                    <td>Cart sub-total: $0.</td>
+                </tr>
+            </table>
+            <button class="mi-boton">Go to Checkout</button>
+            
+            
+        </aside>
+        <footer class="footer">
+            <footer>
+                <p>Copyright</p>
+                <p>&copy; <span id="2024"></span> Vivian Alejandra Viafara Mendoza</p>
+            </footer>
+            
+            <script>
+                document.getElementById("2024").textContent = new Date().getFullYear();
+            </script>
+            
+        </footer>
+    </div>
+</body>
+</html>
+
+   

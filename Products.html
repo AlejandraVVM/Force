@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="products.css">
+    <title>Responsive Layout with Flexbox</title>
+</head>
+<body style="background-color: rgb(255, 255, 255);">
+    <div class="wrapper">
+        <header class="header">
+            <img src="img/tecnology.png" alt="logo"width=135 height="140">
+        </header>
+        <nav class="menu">  
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="Products.html">Products</a></li>
+                <li><a href="Register.html">Register</a></li>
+                <li><a href="About.html">About</a></li>
+
+            </ul>
+            <form action="#" method="get">
+                <input type="text" id="Search" placeholder="Type..."title="Search">
+                <button type="submit">Search</button> 
+            </form>
+        </nav>
+    
+        <article class="main products">
+            <main>
+                <h1>Products we sell</h1>
+                <p>Computer Force sells products in the following categories:</p>
+                <div class="products">
+                    <h2 id="Audio">Audio</h2>
+                    <a href="titles.html#audio"><img src="img/audifonos/a1.jpeg" width="150" height="150"></a>
+                    <a href="titles.html#audio"><img src="img/audifonos/a2.jpeg" width="150" height="150"></a>
+                    <a href="titles.html#audio"><img src="img/audifonos/a3.jpeg" width="150" height="150"></a>
+                    <h2 id=Computers>Computers</h2>
+                    <a href="titles.html#Computers"><img src="img/computer/co1.png" width="170" height="150"></a>
+                    <a href="titles.html#Computers"><img src="img/computer/co2.png" width="150" height="130"></a>
+                    <a href="titles.html#Computers"><img src="img/computer/co3.png" width="150" height="130"></a>
+                    <h2 id=Graphic Cards>Graphic Cards</h2>
+                    <a href="titles.html#graphicCards"><img src="img/Graphic cards/Gc1.png" width="150" height="150"></a>
+                    <a href="titles.html#graphicCards"><img src="img/Graphic cards/Gc2.png" width="150" height="150"></a>
+                    <h2>Keyboard & Mice</h2>
+                    <a href="#"><img src="img/keybord and mice/km1.png" width="150" height="100"></a>
+                    <a href="#"><img src="img/keybord and mice/km2.png" width="170" height="100"></a>
+                    <a href="#"><img src="img/keybord and mice/km3.png" width="150" height="100"></a>
+                    <h2 id="Laptops">laptops</h2>
+                    <a href="titles.html#laptops"><img src="img/laptops/lap1.png" width="150" height="130"></a>
+                    <a href="titles.html#laptops"><img src="img/laptops/lap2.png" width="150" height="130"></a>
+                    <a href="titles.html#laptops"><img src="img/laptops/lap3.png" width="150" height="130"></a>
+                    <h2 id="Monitors">Monitors</h2>
+                    <a href="titles.html#Monitors"><img src="img/monitor/mo1.jpeg" width="150" height="150"></a>
+                    <a href="titles.html#Monitors"><img src="img/monitor/mo2.jpeg" width="170" height="150"></a>
+                    <a href="titles.html#Monitors"><img src="img/monitor/mo3.jpeg" width="150" height="150"></a>
+                    <h2>Networking</h2>
+                    <a href="#"><img src="img/Networking.png" width="150" height="150"></a>
+                    <h2>Peripherals</h2>
+                    <a href="#"><img src="img/peripherals/ph1.png" width="150" height="150"></a>
+                    <a href="#"><img src="img/peripherals/ph2.png" width="150" height="150"></a>
+                    <h2 id="Printing_Scanning">Printing & Scanning</h2>
+                    <a href="titles.html#Printing_Scanning"><img src="img/Scanning and printing/Sp1.png" width="150" height="150"></a>
+                    <a href="titles.html#Printing_Scanning"><img src="img/Scanning and printing/Sp2.png" width="150" height="150"></a>
+                    <a href="titles.html#Printing_Scanning"><img src="img/Scanning and printing/Sp3.png" width="150" height="150"></a>
+                    <h2 id="Software">Software</h2>
+                    <a href="titles.html#software"><img src="img/software/adobe.png" width="150" height="150"></a>
+                    <a href="titles.html#software"><img src="img/software/microsoft.png" width="320" height="150"></a>
+                    <h2>Storage</h2>
+                    <a href="#"><img src="img/storage/ST1.png" width="150" height="150"></a>
+                    <a href="#"><img src="img/storage/ST2.png" width="120" height="150"></a>
+                    <a href="#"><img src="img/storage/ST3.png" width="150" height="150"></a>
+                    <h2 id="Tablets">Tablets</h2>
+                    <a href="titles.html#tablets"><img src="img/tablets/t1.png" width="150" height="120"></a>
+                    <a href="titles.html#tablets"><img src="img/tablets/t2.png" width="150" height="120"></a>
+                    <a href="titles.html#tablets"><img src="img/tablets/t3.png" width="150" height="120"></a>
+                </div>
+            </main>
+        </article>
+        
+
+        <aside class="aside">
+            <h1>Purshases</h1>
+            <table>
+                <tr>
+                    <td>0 Items</td>
+                    <td>Cart sub-total: $0.</td>
+                </tr>
+            </table>
+            <button class="mi-boton">Go to Checkout</button>
+            
+            
+        </aside>
+        <footer class="footer">
+            <footer>
+                <p>Copyright</p>
+                <p>&copy; <span id="2024"></span> Vivian Alejandra Viafara Mendoza</p>
+            </footer>
+            
+            <script>
+                document.getElementById("2024").textContent = new Date().getFullYear();
+            </script>
+            
+        </footer>
+    </div>
+</body>
+</html>
+
+   
